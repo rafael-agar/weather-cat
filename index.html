@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Agar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Poppins:wght@200&family=Raleway:wght@300&family=Unna:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    
+    <div class="weather-app">
+        <div class="container">
+            <h3 class="brand">The Weather</h3>
+            <div>
+                <h1 class="temp">16&#176;</h1>
+                <div class="city-time">
+                    <h1 class="name">London</h1>
+                    <small>
+                        <spna class="time">06:09</spna>
+                        -
+                        <span class="date">
+                            Monday Feb 13
+                        </span>
+                    </small>
+                </div>
+
+                <div class="weather">
+                    <img class="icon" src="./icons/day/113.png" alt="icon" width="50" height="50">
+                    <span class="condition">Cloudy</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel">
+            <form action="" id="locationInput">
+                <input type="text" class="search" placeholder="Search Location..." />
+                <button class="submit" type="submit">
+                    <span class="material-symbols-outlined">search</span>
+                </button>
+            </form>
+
+            <ul class="cities">
+                <li class="city">Atlanta</li>
+                <li class="city">California</li>
+                <li class="city">Paris</li>
+                <li class="city">Tokyo</li>
+            </ul>
+
+            <ul class="details">
+                <h4>Weather details</h4>
+                <li>
+                    <span>Cloudy</span>
+                    <span class="cloud">89%</span>
+                </li>
+                <li>
+                    <span>Humidity</span>
+                    <span class="humidity">64%</span>
+                </li>
+                <li>
+                    <span>Wind</span>
+                    <span class="wind">8Ml/h</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="./mail.js"></script>
+</body>
+</html>
